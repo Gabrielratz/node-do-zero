@@ -57,5 +57,6 @@ return reply.status(204).send
 })
 
 server.listen({ 
+  HOST: '0.0.0.0',
     port: process.env.PORT ?? 3333
 })
